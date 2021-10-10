@@ -4,7 +4,7 @@ import 'package:http/http.dart';
 class TransientFailureException implements Exception {
   
   final String message;
-
+//
   /// Initializes an instance of [TransientFailureException]
   TransientFailureException(this.message);
 
